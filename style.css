@@ -1,0 +1,95 @@
+* {
+  /* border: 1px dashed red; */
+}
+
+
+html {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: monospace;
+  font-weight: bolder;
+
+}
+
+
+.form {
+  text-align: center;
+}
+
+article p {
+  text-align: center;
+}
+
+.ultimoResultado {
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+article {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+
+.resultParas {
+  text-align: center;
+}
+
+
+.cajaIntentos {
+  border: 3px solid black;
+  display: none;
+  border-radius: 5px;
+  margin: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.menorOMayor {
+  font-weight: bold;
+}
+
+
+article button {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  background-color: rgb(0, 35, 130);
+  /* margin-left: auto;
+  margin-right: auto; */
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+
+
+article button:hover {
+  background-color: rgb(0, 48, 179);
+}
+
+
